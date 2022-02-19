@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restMockResponse>
+    <body>&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;message ack="0" companyId="ipira" engine="7.0.21#82" mapversion="1049" messageId="0001" store="L03785237000113" terminal="1"&gt;
+    &lt;optional&gt;
+        &lt;promo id="113 : Compre produto X e leve produto Y em sua próxima compra" nro="6176927fad40a3f204276666"&gt;
+            &lt;benefit TLOGMessage="113 : Compre produto X e leve produto Y em sua próxima compra" account="" amount="" applicationMethod="resume" baseAmount="2.94" benefitType="CouponBenefit" couponId="1132" displayMessage="113 : Compre produto X e leve produto Y em sua próxima compra" infoPos="0" name="6176927fad40a3f204276666" nro="6176a445ad40a3f20427671a" order="1" printerMessage="113 : Compre produto X e leve produto Y em sua próxima compra" qty="1.000"&gt;
+                &lt;apply&gt;
+                    &lt;item magnitude="1.000" qty="1.000" seq="1" value="0.00" valueWithTaxes="0.00" xprice="2.94"/&gt;
+                &lt;/apply&gt;
+            &lt;/benefit&gt;
+        &lt;/promo&gt;
+    &lt;/optional&gt;
+    &lt;optional&gt;
+        &lt;promo id="114 : Comprando produto X, gera o desconto de R$X na próxima compra - resgate" nro="6176a9a5ad40a3f204276766"&gt;
+            &lt;benefit TLOGMessage="114 : Comprando produto X, gera o desconto de R$X na próxima compra - resgate" account="" applicationMethod="resume" baseAmount="2.94" benefitType="FixedDiscount" discountAmount="14.00" displayMessage="114 : Comprando produto X, gera o desconto de R$X na próxima compra - resgate" name="6176a9a5ad40a3f204276766" nro="6176aa29ad40a3f204276771" order="1" printerMessage="114 : Comprando produto X, gera o desconto de R$X na próxima compra - resgate" prorationMethod="PROPORTIONAL" unit="qty"&gt;
+                &lt;apply&gt;
+                    &lt;item magnitude="1.000" qty="1.000" seq="1" value="14.00" valueWithTaxes="14.00" xprice="2.94"/&gt;
+                &lt;/apply&gt;
+            &lt;/benefit&gt;
+            &lt;conditionParticipants&gt;
+                &lt;coupon id="1780BC112200" qty="1" seq="2" type="1142"/&gt;
+                &lt;item code="7894900011517" discountable="true" magnitude="1" qty="17" seq="1" unitprice="50.00" xprice="50.00"/&gt;
+            &lt;/conditionParticipants&gt;
+        &lt;/promo&gt;
+    &lt;/optional&gt;
+    &lt;optional&gt;
+        &lt;promo id="114 : Comprando produto X, gera o desconto de R$X na próxima compra" nro="6176a7caad40a3f20427673a"&gt;
+            &lt;benefit TLOGMessage="114 : Comprando produto X, gera o desconto de R$X na próxima compra" account="" amount="" applicationMethod="resume" baseAmount="2.94" benefitType="CouponBenefit" couponId="1142" displayMessage="114 : Comprando produto X, gera o desconto de R$X na próxima compra" infoPos="0" name="6176a7caad40a3f20427673a" nro="6176a985ad40a3f204276764" order="1" printerMessage="114 : Comprando produto X, gera o desconto de R$X na próxima compra" qty="1.000"&gt;
+                &lt;apply&gt;
+                    &lt;item magnitude="1.000" qty="1.000" seq="1" value="0.00" valueWithTaxes="0.00" xprice="2.94"/&gt;
+                &lt;/apply&gt;
+                &lt;comboParticipants&gt;
+                    &lt;item accumDiscount="false" batchNumber="-" brand="-" code="7894900011517" codeSmall="-" discountable="true" employeeDiscountable="false" expirationDate="-" level1="-" level2="-" level3="-" level4="-" level6="-" level7="-" magnitude="1.00" nprueba="-" originalDiscountable="true" ownBrand="false" priceWithTaxes="50.00" qty="17.00" seq="1" specialPrice="false" stock="0" supplier="-" unitprice="50.00" xprice="50.00"/&gt;
+                &lt;/comboParticipants&gt;
+            &lt;/benefit&gt;
+        &lt;/promo&gt;
+    &lt;/optional&gt;
+&lt;/message&gt;</body>
+    <contentEncodings/>
+    <headerQueries/>
+    <httpHeaders>
+        <httpHeader>
+            <name>content-type</name>
+            <value>application/xml</value>
+        </httpHeader>
+    </httpHeaders>
+    <httpStatusCode>200</httpStatusCode>
+    <id>FrEBZP</id>
+    <jsonPathExpressions/>
+    <methodId>sAmEMX</methodId>
+    <name>Successful response</name>
+    <parameterQueries>
+        <parameterQuery>
+            <matchAny>false</matchAny>
+            <matchCase>true</matchCase>
+            <matchRegex>false</matchRegex>
+            <parameter>request</parameter>
+            <query>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;message store="L01332868000151" canal="PDV" terminal="PDV_JET_OIL_TESTE_CONECTA_123" zone="TOLEDO" subZone="JARDIM COOPAGRO" companyId="ipira" status="sales" msg-version="2.4" date-time="2022-02-11 15:22:49.634518-03:00" messageId="001" init-tck="true" response="false" evaluate="true" suggest="true"&gt;&lt;item-add seq="1" unitprice="50.0" xprice="50.0" qty="17.0" magnitude="1.0" code="7894900011517" discountable="true"&gt;&lt;/item-add&gt;&lt;coupon-add seq="1" type="112" qty="1.0" id="1780BC1122941"&gt;&lt;/coupon-add&gt;&lt;coupon-add seq="2" type="1142" qty="1.0" id="1780BC112200"&gt;&lt;/coupon-add&gt;&lt;/message&gt;</query>
+        </parameterQuery>
+        <parameterQuery>
+            <matchAny>false</matchAny>
+            <matchCase>true</matchCase>
+            <matchRegex>false</matchRegex>
+            <parameter>request</parameter>
+            <query>%3C%3Fxml+version%3D%221.0%22+encoding%3D%22utf-8%22%3F%3E%0A%3Cmessage+store%3D%22L01332868000151%22+canal%3D%22PDV%22+terminal%3D%22PDV_JET_OIL_TESTE_CONECTA_123%22+zone%3D%22TOLEDO%22+subZone%3D%22JARDIM+COOPAGRO%22+companyId%3D%22ipira%22+status%3D%22sales%22+msg-version%3D%222.4%22+date-time%3D%222022-03-08+12%3A00%3A00%22+messageId%3D%220001%22+init-tck%3D%22true%22+response%3D%22true%22+evaluate%3D%22true%22+suggest%3D%22true%22%3E%0A%09%3Citem-add+seq%3D%221%22+unitprice%3D%221.0%22+xprice%3D%223.0%22+qty%3D%221.0%22+magnitude%3D%221.0%22+code%3D%227894900011517%22+discountable%3D%22true%22%3E%3C%2Fitem-add%3E%0A%3C%2Fmessage%3E</query>
+        </parameterQuery>
+    </parameterQueries>
+    <status>ENABLED</status>
+    <usingExpressions>false</usingExpressions>
+    <xpathExpressions/>
+</restMockResponse>
